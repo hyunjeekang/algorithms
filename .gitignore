@@ -1,0 +1,26 @@
+# mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# vscode
+.vscode/
+*.code-workspace
+
+# python
+__pycache__/
+*.pyc
+
+*.cph/
+
+*.dSYM/
+
+*.out
+*.o
+*.exe
+*.obj
+
+input.txt
+output.txt
+error.txt
+*.swp
