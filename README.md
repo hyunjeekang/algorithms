@@ -24,6 +24,7 @@
 | 10430 | [나머지](https://www.acmicpc.net/problem/10430) | [Python](baekjoon/10430.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 10811 | [바구니 뒤집기](https://www.acmicpc.net/problem/10811) | [Python](baekjoon/10811.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
 | 10817 | [세 수](https://www.acmicpc.net/problem/10817) | [Python](baekjoon/10817.py) | <img src='https://static.solved.ac/tier_small/2.svg' height='20px'/> |
+| 10820 | [문자열 분석](https://www.acmicpc.net/problem/10820) | [Python](baekjoon/10820.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
 | 10869 | [사칙연산](https://www.acmicpc.net/problem/10869) | [Python](baekjoon/10869.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | [Python](baekjoon/10871.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
