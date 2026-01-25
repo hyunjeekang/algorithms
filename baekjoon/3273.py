@@ -3,19 +3,23 @@ input = sys.stdin.readline
 n = int(input())
 nums = list(map(int, input().split()))
 x = int(input())
-
 nums.sort()
 
-count = 0
+count = start = 0
+end = n-1
 checked = None
-bpt = n-1
-for fpt in range(n):
-    if fpt >= bpt:
-        break
-    while fpt < bpt and nums[fpt] + nums[bpt] > x:
-        bpt -= 1
-    if fpt < bpt and nums[fpt] + nums[bpt] == x:
+while start < end:
+    s = nums[start]
+    e = nums[end]
+    cur = s + e
+
+    if cur == x:
         count += 1
-        bpt -= 1
+        start += 1
+        end -= 1
+    elif cur < x:
+        start += 1
+    elif cur > x:
+        end -= 1
 
 print(count)
