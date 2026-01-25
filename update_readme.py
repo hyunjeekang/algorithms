@@ -2,8 +2,6 @@ import os
 import requests
 import urllib.parse
 
-# --- 설정 ---
-# 폴더 이름 (실제 리포지토리 폴더명과 일치해야 함)
 DIRS = {
     "baekjoon": "baekjoon",
     "swea": "swea"
@@ -11,10 +9,8 @@ DIRS = {
 README_PATH = "README.md"
 BOJ_API_URL = "https://solved.ac/api/v3/problem/lookup"
 
-# ---------------------------------------------------------
 
 def get_boj_problems():
-    """baekjoon 폴더에서 문제 번호 추출"""
     problem_ids = []
     if os.path.exists(DIRS["baekjoon"]):
         for filename in os.listdir(DIRS["baekjoon"]):
@@ -25,22 +21,31 @@ def get_boj_problems():
     return sorted(list(set(problem_ids)), key=int)
 
 def fetch_boj_details(ids):
-    """solved.ac API로 백준 문제 정보 가져오기"""
+    """solved.ac API"""
     if not ids:
         return {}
     
     id_str = ",".join(ids)
+    params = {"problemIds": id_str}
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+        "Accept": "application/json"
+    }
+
     try:
-        response = requests.get(f"{BOJ_API_URL}?ids={id_str}")
+        response = requests.get(BOJ_API_URL, params=params, headers=headers)
         if response.status_code == 200:
             problems = response.json()
             return {str(p['problemId']): p for p in problems}
+        else:
+            print(f"API Error: {response.status_code}")
     except Exception as e:
         print(f"Error fetching BOJ data: {e}")
     return {}
 
 def get_swea_problems():
-    """swea 폴더에서 '단계_번호_제목.py' 파싱"""
+    """swea 폴더 파일 파싱"""
     problems = []
     if os.path.exists(DIRS["swea"]):
         for filename in os.listdir(DIRS["swea"]):
@@ -59,7 +64,6 @@ def get_swea_problems():
                         "title": title,
                         "path": encoded_path
                     })
-    # 난이도 -> 번호 
     problems.sort(key=lambda x: (x['level'], x['number']))
     return problems
 
@@ -67,9 +71,9 @@ def generate_markdown(boj_ids, boj_details, swea_data):
     content = "# algorithms 🧌\n\n"
 
     # BOJ
-    content += "##  Baekjoon Online Judge\n"
-    content += "| 티어 | 번호 | 제목 | 풀이 |\n"
-    content += "| :---: | :---: | :--- | :---: |\n"
+    content += "## BOJ\n"
+    content += "| # | Problem | Solution | Level |\n"
+    content += "| :---: | :--- | :---: | :---: |\n"
 
     for pid in boj_ids:
         info = boj_details.get(pid)
@@ -78,37 +82,32 @@ def generate_markdown(boj_ids, boj_details, swea_data):
         if info:
             title = info['titleKo']
             level = info['level']
-            # solved.ac 티어 이미지 URL
             tier_img = f"https://static.solved.ac/tier_small/{level}.svg"
             link_boj = f"https://www.acmicpc.net/problem/{pid}"
             
-            row = f"| <img src='{tier_img}' height='20px'/> | [{pid}]({link_boj}) | {title} | [Python]({file_path}) |"
+            row = f"| {pid} | [{title}]({link_boj}) | [Python]({file_path}) | <img src='{tier_img}' height='20px'/> |"
         else:
-            row = f"| - | {pid} | 확인 불가 | [Python]({file_path}) |"
+            row = f"| {pid} | 확인 불가 | [Python]({file_path}) | - |"
         
         content += row + "\n"
 
     # SWEA
     if swea_data:
-        content += "\n## Samsung SW Expert Academy\n"
-        content += "| 난이도 | 번호 | 제목 | 풀이 |\n"
-        content += "| :---: | :---: | :--- | :---: |\n"
+        content += "\n## SWEA\n"
+        content += "| # | Problem | Solution | Level |\n"
+        content += "| :---: | :--- | :---: | :---: |\n"
 
         for p in swea_data:
-            row = f"| {p['level']} | {p['number']} | {p['title']} | [Python]({p['path']}) |"
+            row = f"| {p['number']} | {p['title']} | [Python]({p['path']}) | {p['level']} |"
             content += row + "\n"
 
     return content
 
 def update_readme():
-    # BOJ
     boj_ids = get_boj_problems()
     boj_details = fetch_boj_details(boj_ids)
-    
-    # SWEA
     swea_data = get_swea_problems()
     
-    # md
     markdown = generate_markdown(boj_ids, boj_details, swea_data)
     
     with open(README_PATH, "w", encoding="utf-8") as f:
