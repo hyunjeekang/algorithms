@@ -1,30 +1,30 @@
 # algorithms 🧌
 
-##  Baekjoon Online Judge
-| 티어 | 번호 | 제목 | 풀이 |
-| :---: | :---: | :--- | :---: |
-| - | 1110 | 확인 불가 | [Python](baekjoon/1110.py) |
-| - | 1236 | 확인 불가 | [Python](baekjoon/1236.py) |
-| - | 1292 | 확인 불가 | [Python](baekjoon/1292.py) |
-| - | 2562 | 확인 불가 | [Python](baekjoon/2562.py) |
-| - | 2577 | 확인 불가 | [Python](baekjoon/2577.py) |
-| - | 2738 | 확인 불가 | [Python](baekjoon/2738.py) |
-| - | 2798 | 확인 불가 | [Python](baekjoon/2798.py) |
-| - | 2804 | 확인 불가 | [Python](baekjoon/2804.py) |
-| - | 2846 | 확인 불가 | [Python](baekjoon/2846.py) |
-| - | 2847 | 확인 불가 | [Python](baekjoon/2847.py) |
-| - | 2851 | 확인 불가 | [Python](baekjoon/2851.py) |
-| - | 2884 | 확인 불가 | [Python](baekjoon/2884.py) |
-| - | 2920 | 확인 불가 | [Python](baekjoon/2920.py) |
-| - | 2953 | 확인 불가 | [Python](baekjoon/2953.py) |
-| - | 4344 | 확인 불가 | [Python](baekjoon/4344.py) |
-| - | 5597 | 확인 불가 | [Python](baekjoon/5597.py) |
-| - | 8979 | 확인 불가 | [Python](baekjoon/8979.py) |
-| - | 9498 | 확인 불가 | [Python](baekjoon/9498.py) |
-| - | 10430 | 확인 불가 | [Python](baekjoon/10430.py) |
-| - | 10811 | 확인 불가 | [Python](baekjoon/10811.py) |
-| - | 10817 | 확인 불가 | [Python](baekjoon/10817.py) |
-| - | 10869 | 확인 불가 | [Python](baekjoon/10869.py) |
-| - | 10871 | 확인 불가 | [Python](baekjoon/10871.py) |
-| - | 11721 | 확인 불가 | [Python](baekjoon/11721.py) |
-| - | 18258 | 확인 불가 | [Python](baekjoon/18258.py) |
+## BOJ
+| # | Problem | Solution | Level |
+| :---: | :--- | :---: | :---: |
+| 1110 | [더하기 사이클](https://www.acmicpc.net/problem/1110) | [Python](baekjoon/1110.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 1236 | [성 지키기](https://www.acmicpc.net/problem/1236) | [Python](baekjoon/1236.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 1292 | [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) | [Python](baekjoon/1292.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | [Python](baekjoon/2562.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 2577 | [숫자의 개수](https://www.acmicpc.net/problem/2577) | [Python](baekjoon/2577.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
+| 2738 | [행렬 덧셈](https://www.acmicpc.net/problem/2738) | [Python](baekjoon/2738.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 2798 | [블랙잭](https://www.acmicpc.net/problem/2798) | [Python](baekjoon/2798.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
+| 2804 | [크로스워드 만들기](https://www.acmicpc.net/problem/2804) | [Python](baekjoon/2804.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 2846 | [오르막길](https://www.acmicpc.net/problem/2846) | [Python](baekjoon/2846.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 2847 | [게임을 만든 동준이](https://www.acmicpc.net/problem/2847) | [Python](baekjoon/2847.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
+| 2851 | [슈퍼 마리오](https://www.acmicpc.net/problem/2851) | [Python](baekjoon/2851.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 2884 | [알람 시계](https://www.acmicpc.net/problem/2884) | [Python](baekjoon/2884.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 2920 | [음계](https://www.acmicpc.net/problem/2920) | [Python](baekjoon/2920.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
+| 2953 | [나는 요리사다](https://www.acmicpc.net/problem/2953) | [Python](baekjoon/2953.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 4344 | [평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [Python](baekjoon/4344.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 5597 | [과제 안 내신 분..?](https://www.acmicpc.net/problem/5597) | [Python](baekjoon/5597.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 8979 | [올림픽](https://www.acmicpc.net/problem/8979) | [Python](baekjoon/8979.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
+| 9498 | [시험 성적](https://www.acmicpc.net/problem/9498) | [Python](baekjoon/9498.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
+| 10430 | [나머지](https://www.acmicpc.net/problem/10430) | [Python](baekjoon/10430.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
+| 10811 | [바구니 뒤집기](https://www.acmicpc.net/problem/10811) | [Python](baekjoon/10811.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
+| 10817 | [세 수](https://www.acmicpc.net/problem/10817) | [Python](baekjoon/10817.py) | <img src='https://static.solved.ac/tier_small/2.svg' height='20px'/> |
+| 10869 | [사칙연산](https://www.acmicpc.net/problem/10869) | [Python](baekjoon/10869.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
+| 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | [Python](baekjoon/10871.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
+| 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | [Python](baekjoon/18258.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
