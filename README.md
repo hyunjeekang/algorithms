@@ -8,6 +8,7 @@
 | 1292 | [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) | [Python](baekjoon/1292.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | [Python](baekjoon/2562.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 2577 | [숫자의 개수](https://www.acmicpc.net/problem/2577) | [Python](baekjoon/2577.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
+| 2615 | [오목](https://www.acmicpc.net/problem/2615) | [Python](baekjoon/2615.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 2738 | [행렬 덧셈](https://www.acmicpc.net/problem/2738) | [Python](baekjoon/2738.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 2798 | [블랙잭](https://www.acmicpc.net/problem/2798) | [Python](baekjoon/2798.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
 | 2804 | [크로스워드 만들기](https://www.acmicpc.net/problem/2804) | [Python](baekjoon/2804.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
