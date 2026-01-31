@@ -34,4 +34,5 @@
 | 10869 | [사칙연산](https://www.acmicpc.net/problem/10869) | [Python](baekjoon/10869.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | [Python](baekjoon/10871.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 12927 | [배수 스위치](https://www.acmicpc.net/problem/12927) | [Python](baekjoon/12927.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | [Python](baekjoon/18258.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
