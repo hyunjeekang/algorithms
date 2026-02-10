@@ -37,3 +37,14 @@
 | 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 12927 | [배수 스위치](https://www.acmicpc.net/problem/12927) | [Python](baekjoon/12927.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | [Python](baekjoon/18258.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
+
+## SWEA
+| # | Problem | Solution | Level |
+| :---: | :--- | :---: | :---: |
+| 11151 | 이웃원소의합 | [Python](swea/D1_11151_%EC%9D%B4%EC%9B%83%EC%9B%90%EC%86%8C%EC%9D%98%ED%95%A9.py) | D1 |
+| 12383 | gravity | [Python](swea/D2_12383_gravity.py) | D2 |
+| 12384 | MinMax | [Python](swea/D2_12384_MinMax.py) | D2 |
+| 12387 | 구간합 | [Python](swea/D2_12387_%EA%B5%AC%EA%B0%84%ED%95%A9.py) | D2 |
+| 1206 | View | [Python](swea/D3_1206_View.py) | D3 |
+| 5215 | 햄버거다이어트 | [Python](swea/D3_5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8.py) | D3 |
+| 1247 | 최적경로 | [Python](swea/D5_1247_%EC%B5%9C%EC%A0%81%EA%B2%BD%EB%A1%9C.py) | D5 |
