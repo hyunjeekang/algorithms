@@ -1,4 +1,6 @@
+import sys
 from collections import deque
+input = sys.stdin.readline
 
 N, M = map(int, input().split())
 S, E = map(int, input().split())
@@ -10,17 +12,20 @@ for _ in range(M):
     graph[y].append(x)
 
 visited = [-1]*(N+1)
+
 def bfs(start, end):
-    q = deque([(start, 0)])
+    q = deque([start])
+    visited[start] = 0
 
     while q:
-        cur, cur_time = q.popleft()
+        cur = q.popleft()
+
+        if cur == end:
+            return visited[cur]
 
         for next in [cur-1, cur+1] + graph[cur]:
-            if 1 <= next <= N and visited[next] == -1 :
-                visited[next] = cur_time + 1
-                q.append((next, cur_time+1))
+            if 0 < next <= N and visited[next] == -1 :
+                visited[next] = visited[cur] + 1
+                q.append(next)
 
-    return visited[end]
-    
 print(bfs(S, E))
