@@ -10,6 +10,7 @@
 | 2512 | [예산](https://www.acmicpc.net/problem/2512) | [Python](baekjoon/2512.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | [Python](baekjoon/2562.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 2577 | [숫자의 개수](https://www.acmicpc.net/problem/2577) | [Python](baekjoon/2577.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
+| 2606 | [바이러스](https://www.acmicpc.net/problem/2606) | [Python](baekjoon/2606.py) | <img src='https://static.solved.ac/tier_small/8.svg' height='20px'/> |
 | 2615 | [오목](https://www.acmicpc.net/problem/2615) | [Python](baekjoon/2615.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 2644 | [촌수계산](https://www.acmicpc.net/problem/2644) | [Python](baekjoon/2644.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 2738 | [행렬 덧셈](https://www.acmicpc.net/problem/2738) | [Python](baekjoon/2738.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
