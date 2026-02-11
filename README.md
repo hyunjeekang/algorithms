@@ -37,6 +37,7 @@
 | 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | [Python](baekjoon/10871.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 12927 | [배수 스위치](https://www.acmicpc.net/problem/12927) | [Python](baekjoon/12927.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
+| 14502 | [연구소](https://www.acmicpc.net/problem/14502) | [Python](baekjoon/14502.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
 | 17135 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [Python](baekjoon/17135.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 17136 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [Python](baekjoon/17136.py) | <img src='https://static.solved.ac/tier_small/14.svg' height='20px'/> |
 | 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | [Python](baekjoon/18258.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
