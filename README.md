@@ -5,6 +5,7 @@
 | :---: | :--- | :---: | :---: |
 | 1110 | [더하기 사이클](https://www.acmicpc.net/problem/1110) | [Python](baekjoon/1110.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 1236 | [성 지키기](https://www.acmicpc.net/problem/1236) | [Python](baekjoon/1236.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 1238 | [파티](https://www.acmicpc.net/problem/1238) | [Python](baekjoon/1238.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 1244 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](baekjoon/1244.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 1292 | [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) | [Python](baekjoon/1292.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 1753 | [최단경로](https://www.acmicpc.net/problem/1753) | [Python](baekjoon/1753.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
