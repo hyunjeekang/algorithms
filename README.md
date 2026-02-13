@@ -26,6 +26,7 @@
 | 2953 | [나는 요리사다](https://www.acmicpc.net/problem/2953) | [Python](baekjoon/2953.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 3273 | [두 수의 합](https://www.acmicpc.net/problem/3273) | [Python](baekjoon/3273.py) | <img src='https://static.solved.ac/tier_small/8.svg' height='20px'/> |
 | 4344 | [평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [Python](baekjoon/4344.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 4485 | [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) | [Python](baekjoon/4485.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
 | 5597 | [과제 안 내신 분..?](https://www.acmicpc.net/problem/5597) | [Python](baekjoon/5597.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 8979 | [올림픽](https://www.acmicpc.net/problem/8979) | [Python](baekjoon/8979.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
 | 9498 | [시험 성적](https://www.acmicpc.net/problem/9498) | [Python](baekjoon/9498.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
