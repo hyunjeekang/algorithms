@@ -4,11 +4,13 @@
 | # | Problem | Solution | Level |
 | :---: | :--- | :---: | :---: |
 | 1110 | [더하기 사이클](https://www.acmicpc.net/problem/1110) | [Python](baekjoon/1110.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 1182 | [부분수열의 합](https://www.acmicpc.net/problem/1182) | [Python](baekjoon/1182.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 1236 | [성 지키기](https://www.acmicpc.net/problem/1236) | [Python](baekjoon/1236.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 1238 | [파티](https://www.acmicpc.net/problem/1238) | [Python](baekjoon/1238.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 1244 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](baekjoon/1244.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 1292 | [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) | [Python](baekjoon/1292.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 1753 | [최단경로](https://www.acmicpc.net/problem/1753) | [Python](baekjoon/1753.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 1759 | [암호 만들기](https://www.acmicpc.net/problem/1759) | [Python](baekjoon/1759.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 1916 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [Python](baekjoon/1916.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 2512 | [예산](https://www.acmicpc.net/problem/2512) | [Python](baekjoon/2512.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | [Python](baekjoon/2562.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
@@ -29,6 +31,7 @@
 | 4344 | [평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [Python](baekjoon/4344.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 4485 | [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) | [Python](baekjoon/4485.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
 | 5597 | [과제 안 내신 분..?](https://www.acmicpc.net/problem/5597) | [Python](baekjoon/5597.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 6603 | [로또](https://www.acmicpc.net/problem/6603) | [Python](baekjoon/6603.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 8979 | [올림픽](https://www.acmicpc.net/problem/8979) | [Python](baekjoon/8979.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
 | 9498 | [시험 성적](https://www.acmicpc.net/problem/9498) | [Python](baekjoon/9498.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 9663 | [N-Queen](https://www.acmicpc.net/problem/9663) | [Java](baekjoon/9663.java) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
@@ -44,6 +47,7 @@
 | 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 12927 | [배수 스위치](https://www.acmicpc.net/problem/12927) | [Python](baekjoon/12927.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 14502 | [연구소](https://www.acmicpc.net/problem/14502) | [Python](baekjoon/14502.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 14888 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [Python](baekjoon/14888.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 14889 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | [Python](baekjoon/14889.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 15683 | [감시](https://www.acmicpc.net/problem/15683) | [Python](baekjoon/15683.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 17135 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [Python](baekjoon/17135.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
