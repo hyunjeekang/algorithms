@@ -14,6 +14,7 @@
 | 1874 | [스택 수열](https://www.acmicpc.net/problem/1874) | [Python](baekjoon/1874.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 1916 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [Python](baekjoon/1916.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 1987 | [알파벳](https://www.acmicpc.net/problem/1987) | [Python](baekjoon/1987.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 2468 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Python](baekjoon/2468.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 2512 | [예산](https://www.acmicpc.net/problem/2512) | [Python](baekjoon/2512.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | [Python](baekjoon/2562.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 2577 | [숫자의 개수](https://www.acmicpc.net/problem/2577) | [Python](baekjoon/2577.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
@@ -33,6 +34,7 @@
 | 3273 | [두 수의 합](https://www.acmicpc.net/problem/3273) | [Python](baekjoon/3273.py) | <img src='https://static.solved.ac/tier_small/8.svg' height='20px'/> |
 | 4344 | [평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [Python](baekjoon/4344.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 4485 | [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) | [Python](baekjoon/4485.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 4963 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Python](baekjoon/4963.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 5597 | [과제 안 내신 분..?](https://www.acmicpc.net/problem/5597) | [Python](baekjoon/5597.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 6603 | [로또](https://www.acmicpc.net/problem/6603) | [Python](baekjoon/6603.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 8979 | [올림픽](https://www.acmicpc.net/problem/8979) | [Python](baekjoon/8979.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
