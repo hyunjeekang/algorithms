@@ -57,6 +57,7 @@
 | 14888 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [Python](baekjoon/14888.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 14889 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | [Python](baekjoon/14889.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 15683 | [감시](https://www.acmicpc.net/problem/15683) | [Python](baekjoon/15683.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
+| 15686 | [치킨 배달](https://www.acmicpc.net/problem/15686) | [Python](baekjoon/15686.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 17135 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [Python](baekjoon/17135.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 17136 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [Python](baekjoon/17136.py) | <img src='https://static.solved.ac/tier_small/14.svg' height='20px'/> |
 | 18232 | [텔레포트 정거장](https://www.acmicpc.net/problem/18232) | [Python](baekjoon/18232.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
