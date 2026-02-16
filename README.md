@@ -60,6 +60,7 @@
 | 15686 | [치킨 배달](https://www.acmicpc.net/problem/15686) | [Python](baekjoon/15686.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 17135 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [Python](baekjoon/17135.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 17136 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [Python](baekjoon/17136.py) | <img src='https://static.solved.ac/tier_small/14.svg' height='20px'/> |
+| 17281 | [⚾](https://www.acmicpc.net/problem/17281) | [Python](baekjoon/17281.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
 | 18232 | [텔레포트 정거장](https://www.acmicpc.net/problem/18232) | [Python](baekjoon/18232.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | [Python](baekjoon/18258.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 
