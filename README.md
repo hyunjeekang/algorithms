@@ -39,7 +39,7 @@
 | 6603 | [로또](https://www.acmicpc.net/problem/6603) | [Python](baekjoon/6603.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 8979 | [올림픽](https://www.acmicpc.net/problem/8979) | [Python](baekjoon/8979.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
 | 9498 | [시험 성적](https://www.acmicpc.net/problem/9498) | [Python](baekjoon/9498.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
-| 9663 | [N-Queen](https://www.acmicpc.net/problem/9663) | [Java](baekjoon/9663.java) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 9663 | [N-Queen](https://www.acmicpc.net/problem/9663) | [Java](baekjoon/9663.java), [Python](baekjoon/9663.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
 | 10430 | [나머지](https://www.acmicpc.net/problem/10430) | [Python](baekjoon/10430.py) | <img src='https://static.solved.ac/tier_small/1.svg' height='20px'/> |
 | 10811 | [바구니 뒤집기](https://www.acmicpc.net/problem/10811) | [Python](baekjoon/10811.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
 | 10815 | [숫자 카드](https://www.acmicpc.net/problem/10815) | [Python](baekjoon/10815.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
