@@ -59,6 +59,7 @@
 | 14889 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | [Python](baekjoon/14889.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 15683 | [감시](https://www.acmicpc.net/problem/15683) | [Python](baekjoon/15683.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 15686 | [치킨 배달](https://www.acmicpc.net/problem/15686) | [Python](baekjoon/15686.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
+| 17070 | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | [Python](baekjoon/17070.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 17135 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [Python](baekjoon/17135.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 17136 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [Python](baekjoon/17136.py) | <img src='https://static.solved.ac/tier_small/14.svg' height='20px'/> |
 | 17281 | [⚾](https://www.acmicpc.net/problem/17281) | [Python](baekjoon/17281.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
