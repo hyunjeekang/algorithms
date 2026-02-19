@@ -14,6 +14,7 @@
 | 1874 | [스택 수열](https://www.acmicpc.net/problem/1874) | [Python](baekjoon/1874.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 1916 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [Python](baekjoon/1916.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 1987 | [알파벳](https://www.acmicpc.net/problem/1987) | [Python](baekjoon/1987.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 2252 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [Python](baekjoon/2252.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 2468 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Python](baekjoon/2468.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 2512 | [예산](https://www.acmicpc.net/problem/2512) | [Python](baekjoon/2512.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | [Python](baekjoon/2562.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
