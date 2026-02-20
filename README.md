@@ -56,6 +56,7 @@
 | 12927 | [배수 스위치](https://www.acmicpc.net/problem/12927) | [Python](baekjoon/12927.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | [Python](baekjoon/13023.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 14502 | [연구소](https://www.acmicpc.net/problem/14502) | [Python](baekjoon/14502.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 14567 | [선수과목 (Prerequisite)](https://www.acmicpc.net/problem/14567) | [Python](baekjoon/14567.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 14888 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [Python](baekjoon/14888.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 14889 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | [Python](baekjoon/14889.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 15683 | [감시](https://www.acmicpc.net/problem/15683) | [Python](baekjoon/15683.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
