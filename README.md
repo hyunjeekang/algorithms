@@ -90,6 +90,7 @@
 | 15686 | [치킨 배달](https://www.acmicpc.net/problem/15686) | [Python](baekjoon/15686.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 16236 | [아기 상어](https://www.acmicpc.net/problem/16236) | [Java](baekjoon/BOJ16236.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 16933 | [벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933) | [Python](baekjoon/16933.py) | <img src='https://static.solved.ac/tier_small/15.svg' height='20px'/> |
+| 16985 | [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985) | [Java](baekjoon/BOJ16985.java) | <img src='https://static.solved.ac/tier_small/14.svg' height='20px'/> |
 | 17070 | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | [Python](baekjoon/17070.py) | <img src='https://static.solved.ac/tier_small/11.svg' height='20px'/> |
 | 17135 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [Python](baekjoon/17135.py) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 17136 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [Python](baekjoon/17136.py) | <img src='https://static.solved.ac/tier_small/14.svg' height='20px'/> |
@@ -102,6 +103,7 @@
 | # | Problem | Solution | Level |
 | :---: | :--- | :---: | :---: |
 | 11151 | 이웃원소의합 | [Python](swea/D1_11151_%EC%9D%B4%EC%9B%83%EC%9B%90%EC%86%8C%EC%9D%98%ED%95%A9.py) | D1 |
+| 1926 | 간단한 369게임 | [Java](swea/D1_1926_%EA%B0%84%EB%8B%A8%ED%95%9C_369%EA%B2%8C%EC%9E%84.java) | D1 |
 | 1926 | 간단한369게임 | [Java](swea/D1_1926_%EA%B0%84%EB%8B%A8%ED%95%9C369%EA%B2%8C%EC%9E%84.java) | D1 |
 | 12383 | gravity | [Python](swea/D2_12383_gravity.py) | D2 |
 | 12384 | MinMax | [Python](swea/D2_12384_MinMax.py) | D2 |
