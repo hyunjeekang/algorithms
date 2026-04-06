@@ -89,7 +89,7 @@ def get_swea_problems():
 
 def generate_markdown(boj_ids, boj_map, boj_details, swea_data):
     content = "# algorithms \n\n"
-    content += f"[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={SOLVED_AC_HANDLE})](https://solved.ac/{SOLVED_AC_HANDLE})"
+    content += f"[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={SOLVED_AC_HANDLE})](https://solved.ac/{SOLVED_AC_HANDLE})\n\n"
 
     # --- BOJ Section ---
     content += "## BOJ\n"
