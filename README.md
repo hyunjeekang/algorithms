@@ -1,6 +1,8 @@
 # algorithms 
 
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=hyunni3)](https://solved.ac/hyunni3)## BOJ
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=hyunni3)](https://solved.ac/hyunni3)
+
+## BOJ
 | # | Problem | Solution | Level |
 | :---: | :--- | :---: | :---: |
 | 1005 | [ACM Craft](https://www.acmicpc.net/problem/1005) | [Java](baekjoon/BOJ1005.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
