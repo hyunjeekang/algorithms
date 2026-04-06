@@ -1,8 +1,6 @@
 # algorithms 
 
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={hyunni3})](https://solved.ac/{hyunni3})
-
-## BOJ
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=hyunni3)](https://solved.ac/hyunni3)## BOJ
 | # | Problem | Solution | Level |
 | :---: | :--- | :---: | :---: |
 | 1005 | [ACM Craft](https://www.acmicpc.net/problem/1005) | [Java](baekjoon/BOJ1005.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
@@ -101,7 +99,7 @@
 | # | Problem | Solution | Level |
 | :---: | :--- | :---: | :---: |
 | 11151 | 이웃원소의합 | [Python](swea/D1_11151_%EC%9D%B4%EC%9B%83%EC%9B%90%EC%86%8C%EC%9D%98%ED%95%A9.py) | D1 |
-| 1926 | - | [Java](swea/D1_1926.java) | D1 |
+| 1926 | 간단한369게임 | [Java](swea/D1_1926_%EA%B0%84%EB%8B%A8%ED%95%9C369%EA%B2%8C%EC%9E%84.java) | D1 |
 | 12383 | gravity | [Python](swea/D2_12383_gravity.py) | D2 |
 | 12384 | MinMax | [Python](swea/D2_12384_MinMax.py) | D2 |
 | 12387 | 구간합 | [Python](swea/D2_12387_%EA%B5%AC%EA%B0%84%ED%95%A9.py) | D2 |
