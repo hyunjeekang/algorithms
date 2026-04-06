@@ -1,6 +1,6 @@
 # algorithms 
 
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=hyunni3)](https://solved.ac/hyunni3)
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=hyunni3)](https://solved.ac/hyunni3) ![mazandi profile](http://mazandi.herokuapp.com/api?handle=hyunni3&theme=cold)
 
 ## BOJ
 | # | Problem | Solution | Level |
