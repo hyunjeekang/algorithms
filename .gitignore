@@ -43,3 +43,6 @@ input.txt
 output.txt
 error.txt
 *.swp
+
+.project
+.classpath
