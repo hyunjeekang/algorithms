@@ -9,6 +9,7 @@ DIRS = {
 }
 README_PATH = "README.md"
 BOJ_API_URL = "https://solved.ac/api/v3/problem/lookup"
+SOLVED_AC_HANDLE = "hyunni3"
 
 # 확장자별 표시 텍스트 설정
 EXT_MAP = {
@@ -88,7 +89,7 @@ def get_swea_problems():
 
 def generate_markdown(boj_ids, boj_map, boj_details, swea_data):
     content = "# algorithms \n\n"
-    content += "[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={hyunni3})](https://solved.ac/{hyunni3})\n\n"
+    content += f"[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={SOLVED_AC_HANDLE})](https://solved.ac/{SOLVED_AC_HANDLE})"
 
     # --- BOJ Section ---
     content += "## BOJ\n"
