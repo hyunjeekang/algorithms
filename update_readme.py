@@ -1,6 +1,7 @@
 import os
 import requests
 import urllib.parse
+import re
 
 DIRS = {
     "baekjoon": "baekjoon",
@@ -16,16 +17,20 @@ EXT_MAP = {
 }
 
 def get_boj_problems():
-    """백준 폴더 내의 문제 번호와 사용된 언어들을 수집합니다."""
-    # { '1000': ['.py', '.java'], '1001': ['.py'] } 형태의 딕셔너리 생성
+    """백준 폴더 내의 문제 번호와 실제 파일명, 언어를 수집합니다."""
+    # { '1000': { '.py': '1000.py', '.java': 'BOJ1000.java' } } 형태
     problem_map = {}
     if os.path.exists(DIRS["baekjoon"]):
         for filename in os.listdir(DIRS["baekjoon"]):
             name, ext = os.path.splitext(filename)
-            if ext in EXT_MAP and name.isdigit():
-                if name not in problem_map:
-                    problem_map[name] = []
-                problem_map[name].append(ext)
+            if ext in EXT_MAP:
+                # 정규식을 사용해 파일명에서 숫자만 추출 (예: BOJ10026 -> 10026)
+                pid = re.sub(r'[^0-9]', '', name)
+                
+                if pid: # 숫자가 존재하는 경우에만 처리
+                    if pid not in problem_map:
+                        problem_map[pid] = {}
+                    problem_map[pid][ext] = filename # 실제 파일명을 저장
     
     sorted_ids = sorted(problem_map.keys(), key=int)
     return sorted_ids, problem_map
@@ -52,7 +57,6 @@ def fetch_boj_details(ids):
 
 def get_swea_problems():
     """SWEA 폴더 내 파일들을 파싱하여 정보와 언어를 그룹화합니다."""
-    # { ('D3', '5215', '햄버거다이어트'): ['.py', '.java'] }
     problem_map = {}
     
     if os.path.exists(DIRS["swea"]):
@@ -60,27 +64,31 @@ def get_swea_problems():
             name, ext = os.path.splitext(filename)
             if ext in EXT_MAP:
                 parts = name.split("_")
-                if len(parts) >= 3:
-                    key = (parts[0], parts[1], " ".join(parts[2:]))
+                # 레벨과 문제번호만 있어도 파싱 가능하도록 (최소 2개 파트)
+                if len(parts) >= 2:
+                    level = parts[0]
+                    number = parts[1]
+                    title = "_".join(parts[2:]) if len(parts) > 2 else ""
+                    key = (level, number, title)
                     if key not in problem_map:
-                        problem_map[key] = []
-                    problem_map[key].append(ext)
+                        problem_map[key] = {}
+                    problem_map[key][ext] = filename # 실제 파일명을 저장
     
-    # 리스트로 변환 및 정렬
     problems = []
-    for (level, number, title), exts in problem_map.items():
+    for (level, number, title), ext_dict in problem_map.items():
         problems.append({
             "level": level,
             "number": number,
             "title": title,
-            "exts": sorted(exts) # .java, .py 순서
+            "files": ext_dict # { '.py': '...', '.java': '...' }
         })
     
     problems.sort(key=lambda x: (x['level'], x['number']))
     return problems
 
 def generate_markdown(boj_ids, boj_map, boj_details, swea_data):
-    content = "# algorithms 🧌\n\n"
+    content = "# algorithms \n\n"
+    content += "[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={hyunni3})](https://solved.ac/{hyunni3})\n\n"
 
     # --- BOJ Section ---
     content += "## BOJ\n"
@@ -89,11 +97,14 @@ def generate_markdown(boj_ids, boj_map, boj_details, swea_data):
 
     for pid in boj_ids:
         info = boj_details.get(pid)
-        # 확장자별 링크 생성
         solution_links = []
-        for ext in sorted(boj_map[pid]):
-            file_path = f"{DIRS['baekjoon']}/{pid}{ext}"
-            solution_links.append(f"[{EXT_MAP[ext]}]({file_path})")
+        
+        # 확장자 이름순 정렬 (.java, .py 순)
+        for ext in sorted(boj_map[pid].keys()):
+            actual_filename = boj_map[pid][ext]
+            file_path = f"{DIRS['baekjoon']}/{actual_filename}"
+            encoded_path = urllib.parse.quote(file_path)
+            solution_links.append(f"[{EXT_MAP[ext]}]({encoded_path})")
         
         solutions = ", ".join(solution_links)
         
@@ -115,15 +126,16 @@ def generate_markdown(boj_ids, boj_map, boj_details, swea_data):
 
         for p in swea_data:
             solution_links = []
-            for ext in p['exts']:
-                # 파일명 복원 (Level_Number_Title.ext)
-                filename = f"{p['level']}_{p['number']}_{p['title'].replace(' ', '_')}{ext}"
-                file_path = f"{DIRS['swea']}/{filename}"
+            
+            for ext in sorted(p['files'].keys()):
+                actual_filename = p['files'][ext]
+                file_path = f"{DIRS['swea']}/{actual_filename}"
                 encoded_path = urllib.parse.quote(file_path)
                 solution_links.append(f"[{EXT_MAP[ext]}]({encoded_path})")
             
             solutions = ", ".join(solution_links)
-            row = f"| {p['number']} | {p['title']} | {solutions} | {p['level']} |"
+            display_title = p['title'].replace("_", " ") if p['title'] else "-"
+            row = f"| {p['number']} | {display_title} | {solutions} | {p['level']} |"
             content += row + "\n"
 
     return content
