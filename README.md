@@ -17,6 +17,7 @@
 | 1261 | [알고스팟](https://www.acmicpc.net/problem/1261) | [Java](baekjoon/BOJ1261.java) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
 | 1292 | [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) | [Python](baekjoon/1292.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 1406 | [에디터](https://www.acmicpc.net/problem/1406) | [Python](baekjoon/1406.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
+| 1463 | [1로 만들기](https://www.acmicpc.net/problem/1463) | [Java](baekjoon/BOJ1463.java) | <img src='https://static.solved.ac/tier_small/8.svg' height='20px'/> |
 | 1516 | [게임 개발](https://www.acmicpc.net/problem/1516) | [Java](baekjoon/BOJ1516.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 1713 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [Python](baekjoon/1713.py) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 1753 | [최단경로](https://www.acmicpc.net/problem/1753) | [Python](baekjoon/1753.py) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
@@ -121,6 +122,8 @@
 | 7793 | 오나의여신님 | [Java](swea/D5_7793_%EC%98%A4%EB%82%98%EC%9D%98%EC%97%AC%EC%8B%A0%EB%8B%98.java) | D5 |
 | 1267 | 작업순서 | [Java](swea/D6_1267_%EC%9E%91%EC%97%85%EC%88%9C%EC%84%9C.java) | D6 |
 | 25010 | 인기검색어 | [Java](swea/D6_25010_%EC%9D%B8%EA%B8%B0%EA%B2%80%EC%83%89%EC%96%B4.java) | D6 |
+| 0001 | 아파트 | [Java](swea/HW_0001_%EC%95%84%ED%8C%8C%ED%8A%B8.java) | HW |
+| 0002 | 막대 | [Java](swea/HW_0002_%EB%A7%89%EB%8C%80.java) | HW |
 | 1767 | 프로세서연결하기 | [Java](swea/SW_1767_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.java) | SW |
 | 2382 | 미생물격리 | [Java](swea/SW_2382_%EB%AF%B8%EC%83%9D%EB%AC%BC%EA%B2%A9%EB%A6%AC.java) | SW |
 | 5656 | 벽돌깨기 | [Java](swea/SW_5656_%EB%B2%BD%EB%8F%8C%EA%B9%A8%EA%B8%B0.java) | SW |
