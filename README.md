@@ -8,6 +8,7 @@
 | 1003 | [피보나치 함수](https://www.acmicpc.net/problem/1003) | [Java](baekjoon/BOJ1003.java) | <img src='https://static.solved.ac/tier_small/8.svg' height='20px'/> |
 | 1005 | [ACM Craft](https://www.acmicpc.net/problem/1005) | [Java](baekjoon/BOJ1005.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 1110 | [더하기 사이클](https://www.acmicpc.net/problem/1110) | [Python](baekjoon/1110.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
+| 1149 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](baekjoon/BOJ1149.java) | <img src='https://static.solved.ac/tier_small/10.svg' height='20px'/> |
 | 1158 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [Python](baekjoon/1158.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 1182 | [부분수열의 합](https://www.acmicpc.net/problem/1182) | [Python](baekjoon/1182.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 1236 | [성 지키기](https://www.acmicpc.net/problem/1236) | [Python](baekjoon/1236.py) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
