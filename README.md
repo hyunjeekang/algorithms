@@ -42,6 +42,7 @@
 | 2623 | [음악프로그램](https://www.acmicpc.net/problem/2623) | [Java](baekjoon/BOJ2623.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 2644 | [촌수계산](https://www.acmicpc.net/problem/2644) | [Python](baekjoon/2644.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 2738 | [행렬 덧셈](https://www.acmicpc.net/problem/2738) | [Python](baekjoon/2738.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
+| 2748 | [피보나치 수 2](https://www.acmicpc.net/problem/2748) | [Java](baekjoon/BOJ2748.java) | <img src='https://static.solved.ac/tier_small/5.svg' height='20px'/> |
 | 2750 | [수 정렬하기](https://www.acmicpc.net/problem/2750) | [Python](baekjoon/2750.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
 | 2751 | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) | [Python](baekjoon/2751.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
 | 2798 | [블랙잭](https://www.acmicpc.net/problem/2798) | [Python](baekjoon/2798.py) | <img src='https://static.solved.ac/tier_small/4.svg' height='20px'/> |
