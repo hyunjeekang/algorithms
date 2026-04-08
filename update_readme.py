@@ -37,24 +37,38 @@ def get_boj_problems():
     return sorted_ids, problem_map
 
 def fetch_boj_details(ids):
-    """solved.ac API 호출"""
+    """solved.ac API 호출 (100개씩 나누어서 요청)"""
     if not ids: return {}
     
-    id_str = ",".join(ids)
-    params = {"problemIds": id_str}
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Accept": "application/json"
     }
 
+    all_details = {}
+    chunk_size = 100  # 100개씩 분할
+
     try:
-        response = requests.get(BOJ_API_URL, params=params, headers=headers)
-        if response.status_code == 200:
-            problems = response.json()
-            return {str(p['problemId']): p for p in problems}
+        for i in range(0, len(ids), chunk_size):
+            chunk = ids[i:i + chunk_size]
+            id_str = ",".join(chunk)
+            params = {"problemIds": id_str}
+            
+            response = requests.get(BOJ_API_URL, params=params, headers=headers)
+            
+            if response.status_code == 200:
+                problems = response.json()
+                for p in problems:
+                    all_details[str(p['problemId'])] = p
+            else:
+                print(f"API 요청 실패: 상태 코드 {response.status_code} (IDs: {chunk[0]}~{chunk[-1]})")
+                
+        return all_details
+        
     except Exception as e:
         print(f"Error fetching BOJ data: {e}")
-    return {}
+        
+    return all_details
 
 def get_swea_problems():
     """SWEA 폴더 내 파일들을 파싱하여 정보와 언어를 그룹화합니다."""
