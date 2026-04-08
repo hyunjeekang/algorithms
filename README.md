@@ -81,6 +81,7 @@
 | 11721 | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [Python](baekjoon/11721.py) | <img src='https://static.solved.ac/tier_small/3.svg' height='20px'/> |
 | 11723 | [집합](https://www.acmicpc.net/problem/11723) | [Python](baekjoon/11723.py) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
 | 11724 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Python](baekjoon/11724.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
+| 11725 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](baekjoon/BOJ11725.java) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 11779 | [최소비용 구하기 2](https://www.acmicpc.net/problem/11779) | [Java](baekjoon/BOJ11779.java) | <img src='https://static.solved.ac/tier_small/13.svg' height='20px'/> |
 | 11931 | [수 정렬하기 4](https://www.acmicpc.net/problem/11931) | [Java](baekjoon/BOJ11931.java) | <img src='https://static.solved.ac/tier_small/6.svg' height='20px'/> |
 | 12855 | [홍준이는 FFT를 좋아해](https://www.acmicpc.net/problem/12855) | [Java](baekjoon/BOJ12855.java) | <img src='https://static.solved.ac/tier_small/19.svg' height='20px'/> |
