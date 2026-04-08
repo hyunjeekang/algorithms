@@ -85,7 +85,7 @@
 | 11725 | 확인 불가 | [Java](baekjoon/BOJ11725.java) | - |
 | 11779 | 확인 불가 | [Java](baekjoon/BOJ11779.java) | - |
 | 11931 | 확인 불가 | [Java](baekjoon/BOJ11931.java) | - |
-| 12855 | 확인 불가 | [Java](baekjoon/BOJ12855.java) | - |
+| 12865 | 확인 불가 | [Java](baekjoon/BOJ12865.java) | - |
 | 12927 | 확인 불가 | [Python](baekjoon/12927.py) | - |
 | 13023 | 확인 불가 | [Python](baekjoon/13023.py) | - |
 | 14502 | 확인 불가 | [Python](baekjoon/14502.py) | - |
