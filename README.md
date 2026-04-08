@@ -78,6 +78,7 @@
 | 10869 | 확인 불가 | [Python](baekjoon/10869.py) | - |
 | 10871 | 확인 불가 | [Python](baekjoon/10871.py) | - |
 | 10989 | 확인 불가 | [Python](baekjoon/10989.py) | - |
+| 11053 | 확인 불가 | [Java](baekjoon/BOJ11053.java) | - |
 | 11721 | 확인 불가 | [Python](baekjoon/11721.py) | - |
 | 11723 | 확인 불가 | [Python](baekjoon/11723.py) | - |
 | 11724 | 확인 불가 | [Python](baekjoon/11724.py) | - |
