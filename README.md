@@ -109,6 +109,7 @@
 | 18232 | [텔레포트 정거장](https://www.acmicpc.net/problem/18232) | [Python](baekjoon/18232.py) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 | 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | [Python](baekjoon/18258.py) | <img src='https://static.solved.ac/tier_small/7.svg' height='20px'/> |
 | 18430 | [무기 공학](https://www.acmicpc.net/problem/18430) | [Java](baekjoon/BOJ18430.java) | <img src='https://static.solved.ac/tier_small/12.svg' height='20px'/> |
+| 22971 | [증가하는 부분 수열의 개수](https://www.acmicpc.net/problem/22971) | [Java](baekjoon/BOJ22971.java) | <img src='https://static.solved.ac/tier_small/9.svg' height='20px'/> |
 
 ## SWEA
 | # | Problem | Solution | Level |
