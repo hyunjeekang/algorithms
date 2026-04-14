@@ -116,33 +116,4 @@
 ## SWEA
 | # | Problem | Solution | Level |
 | :---: | :--- | :---: | :---: |
-| 11151 | 이웃원소의합 | [Python](swea/D1_11151_%EC%9D%B4%EC%9B%83%EC%9B%90%EC%86%8C%EC%9D%98%ED%95%A9.py) | D1 |
-| 1926 | 간단한 369게임 | [Java](swea/D1_1926_%EA%B0%84%EB%8B%A8%ED%95%9C_369%EA%B2%8C%EC%9E%84.java) | D1 |
-| 1926 | 간단한369게임 | [Java](swea/D1_1926_%EA%B0%84%EB%8B%A8%ED%95%9C369%EA%B2%8C%EC%9E%84.java) | D1 |
-| 12383 | gravity | [Python](swea/D2_12383_gravity.py) | D2 |
-| 12384 | MinMax | [Python](swea/D2_12384_MinMax.py) | D2 |
-| 12387 | 구간합 | [Python](swea/D2_12387_%EA%B5%AC%EA%B0%84%ED%95%A9.py) | D2 |
-| 1206 | View | [Python](swea/D3_1206_View.py) | D3 |
-| 1873 | 상호의배틀필드 | [Java](swea/D3_1873_%EC%83%81%ED%98%B8%EC%9D%98%EB%B0%B0%ED%8B%80%ED%95%84%EB%93%9C.java) | D3 |
-| 22683 | 나무베기 | [Java](swea/D3_22683_%EB%82%98%EB%AC%B4%EB%B2%A0%EA%B8%B0.java) | D3 |
-| 2814 | 최장경로 | [Java](swea/D3_2814_%EC%B5%9C%EC%9E%A5%EA%B2%BD%EB%A1%9C.java) | D3 |
-| 5105 | 미로의거리 | [Java](swea/D3_5105_%EB%AF%B8%EB%A1%9C%EC%9D%98%EA%B1%B0%EB%A6%AC.java) | D3 |
-| 5215 | 햄버거다이어트 | [Python](swea/D3_5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8.py) | D3 |
-| 1226 | 미로1 | [Java](swea/D4_1226_%EB%AF%B8%EB%A1%9C1.java) | D4 |
-| 1238 | Contact | [Java](swea/D4_1238_Contact.java) | D4 |
-| 1251 | 하나로 | [Java](swea/D4_1251_%ED%95%98%EB%82%98%EB%A1%9C.java) | D4 |
-| 2819 | 격자판의숫자이어붙이기 | [Java](swea/D4_2819_%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%EC%88%AB%EC%9E%90%EC%9D%B4%EC%96%B4%EB%B6%99%EC%9D%B4%EA%B8%B0.java) | D4 |
-| 3124 | 최소스패닝트리 | [Java](swea/D4_3124_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC.java) | D4 |
-| 3289 | 서로소집합 | [Java](swea/D4_3289_%EC%84%9C%EB%A1%9C%EC%86%8C%EC%A7%91%ED%95%A9.java) | D4 |
-| 7465 | 창용마을무리의개수 | [Java](swea/D4_7465_%EC%B0%BD%EC%9A%A9%EB%A7%88%EC%9D%84%EB%AC%B4%EB%A6%AC%EC%9D%98%EA%B0%9C%EC%88%98.java) | D4 |
-| 1247 | 최적경로 | [Java](swea/D5_1247_%EC%B5%9C%EC%A0%81%EA%B2%BD%EB%A1%9C.java), [Python](swea/D5_1247_%EC%B5%9C%EC%A0%81%EA%B2%BD%EB%A1%9C.py) | D5 |
-| 24615 | 던전탈출 | [Java](swea/D5_24615_%EB%8D%98%EC%A0%84%ED%83%88%EC%B6%9C.java) | D5 |
-| 7793 | 오나의여신님 | [Java](swea/D5_7793_%EC%98%A4%EB%82%98%EC%9D%98%EC%97%AC%EC%8B%A0%EB%8B%98.java) | D5 |
-| 1263 | - | [Java](swea/D6_1263.java) | D6 |
-| 1267 | 작업순서 | [Java](swea/D6_1267_%EC%9E%91%EC%97%85%EC%88%9C%EC%84%9C.java) | D6 |
-| 25010 | 인기검색어 | [Java](swea/D6_25010_%EC%9D%B8%EA%B8%B0%EA%B2%80%EC%83%89%EC%96%B4.java) | D6 |
-| 0001 | 아파트 | [Java](swea/HW_0001_%EC%95%84%ED%8C%8C%ED%8A%B8.java) | HW |
-| 0002 | 막대 | [Java](swea/HW_0002_%EB%A7%89%EB%8C%80.java) | HW |
-| 1767 | 프로세서연결하기 | [Java](swea/SW_1767_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.java) | SW |
-| 2382 | 미생물격리 | [Java](swea/SW_2382_%EB%AF%B8%EC%83%9D%EB%AC%BC%EA%B2%A9%EB%A6%AC.java) | SW |
-| 5656 | 벽돌깨기 | [Java](swea/SW_5656_%EB%B2%BD%EB%8F%8C%EA%B9%A8%EA%B8%B0.java) | SW |
+| 1 | - | [Java](swea/SWEA1926_1.java) | SWEA1926 |
