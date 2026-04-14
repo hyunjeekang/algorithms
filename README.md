@@ -1,4 +1,5 @@
-# algorithms
+
+## \\_へ(▭-▭)✨
 
 <div align="center">
   <table border="0">
@@ -36,7 +37,7 @@
 
 <br>
 
-## 📂 Repository Structure
+## Repository Structure
 
 - `baekjoon/`: Solutions for Baekjoon Online Judge
 - `swea/`: Solutions for Samsung SW Expert Academy

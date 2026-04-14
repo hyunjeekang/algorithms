@@ -1,4 +1,4 @@
-## 🏷️ Badge Standard (English)
+## 🏷️ Badge Standard
 
 ### 🟢 Status
 | Status | Badge | Color |
