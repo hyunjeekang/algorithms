@@ -7,7 +7,7 @@ public class SWEA3124 {
     
     //kruskal -> 간선 중심, 전체에서 작은 간선부터 확인
     //edge
-    static class Edge implements Comparable<Edge>{
+    static class SWEA_3124 implements Comparable<Edge>{
     	int from, to, weight;
     	public Edge(int from, int to, int weight) {
     		this.from = from;
@@ -21,7 +21,7 @@ public class SWEA3124 {
     	}
     }
     
-    static class kruskalMST {
+    static class SWEA_3124 {
     	private int[] parent, rank;
     	
     	public kruskalMST(int N) {

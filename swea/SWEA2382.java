@@ -8,7 +8,7 @@ public class SWEA2382 {
     static int T, N, M, K;
     static List<MicroComm> comms;
 
-    static class MicroComm {
+    static class SWEA_2382 {
         int r, c, micros, dir;
         boolean activate = true;
 

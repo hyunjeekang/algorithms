@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class D4_1226_미로1 {
+public class SWEA1226 {
 
     static final int[] drs = {-1, 1, 0, 0};
     static final int[] dcs = {0, 0, -1, 1};

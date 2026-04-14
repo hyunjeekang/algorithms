@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class SW_5656_벽돌깨기 {
+public class SWEA5656 {
     static int N, W, H, minBricks, totalBricks;
     static int[] dr = {-1, 1, 0, 0}, dc = {0, 0, -1, 1};
 

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class D3_2814_최장경로 {
+public class SWEA2814 {
     
     static int maxResult;
 

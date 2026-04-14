@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class D4_1238_Contact {
+public class SWEA1238 {
     
     public static void main(String[] args) throws IOException{
 

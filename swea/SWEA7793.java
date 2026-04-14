@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class D5_7793_오나의여신님 {
+public class SWEA7793 {
 
 	/**
 	 * 

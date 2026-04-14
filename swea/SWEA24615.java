@@ -1,7 +1,7 @@
 import java.util.*;
 
-class D5_24615_던전탈출 {
-    class Product implements Comparable<Product> {
+class SWEA24615 {
+    class SWEA24615 implements Comparable<Product> {
         int id, originPrice, category, company;
         boolean removed = false;
 

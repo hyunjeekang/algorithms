@@ -1,4 +1,4 @@
-class HW_0001_아파트{
+class SWEA0001{
     public static void main(String[] args) {
         int[] memo = new int[10];
         memo[1] = 2;

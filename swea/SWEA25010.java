@@ -1,12 +1,12 @@
 import java.util.*;
 
-class D6_25010_인기검색어 {
+class SWEA25010 {
     int N;
     String[] history = new String[10005]; // 전체 입력 기록
     int totalCount;
 
     // 집합
-    class Cluster implements Comparable<Cluster> {
+    class SWEA25010 implements Comparable<Cluster> {
         String representative; // 대표 검색어
         int totalFreq;         // 집합 내 모든 단어의 빈도 합
 

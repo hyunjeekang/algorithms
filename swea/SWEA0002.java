@@ -1,4 +1,4 @@
-class HW_0002_막대{
+class SWEA0002{
 
     public static void main(String[] args) {
         int[] memo = new int[10];

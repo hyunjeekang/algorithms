@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class D1_1926_간단한_369게임 {
+public class SWEA1926_1 {
     public static void main(String[] args) throws IOException {
         // Scanner보다 빠른 BufferedReader 사용
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

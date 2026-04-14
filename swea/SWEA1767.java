@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class SW_1767_프로세서연결하기 {
+public class SWEA1767 {
 	
 	// static final
 	static final int[] drs = {-1, 1, 0, 0};
@@ -26,7 +26,7 @@ public class SW_1767_프로세서연결하기 {
 	static int minWireLen;
 	
 	// core
-	public static class Core{
+	public static class SWEA_1767{
 		int r; int c;
 		public Core(int r, int c){
 			this.r = r;

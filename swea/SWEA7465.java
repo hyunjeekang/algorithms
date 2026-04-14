@@ -1,9 +1,9 @@
 import java.util.*;
 import java.io.*;
 
-public class D4_7465_창용마을무리의개수 {
+public class SWEA7465 {
 
-    public static class DisjointSet{
+    public static class SWEA_7465{
 
         private int[] parents;
         private int[] ranks;

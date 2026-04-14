@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class D3_22683_나무베기 {
+public class SWEA22683 {
     
     final static int[][] move = { // 북 동 남 서
         {-1, 0},

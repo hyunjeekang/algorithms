@@ -3,7 +3,7 @@ import java.util.*;
 
 public class SWEA1251 {
 
-    public static class Edge implements Comparable<Edge> {
+    public static class SWEA_1251 implements Comparable<Edge> {
         int from, to;
         long weight; // long
 
@@ -19,7 +19,7 @@ public class SWEA1251 {
         }
     }
 
-    public static class KruskalMST {
+    public static class SWEA_1251 {
         private int[] parent;
         private int[] rank;
         private List<Edge> edges;

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class D6_1263 {
+public class SWEA1263 {
 
     static StringBuilder sb = new StringBuilder();
 

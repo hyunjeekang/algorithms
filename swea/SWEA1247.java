@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 public class SWEA1247 {
 
-    static class Cord {
+    static class SWEA_1247 {
         int r, c;
         public Cord(int r, int c) {
             this.r = r;

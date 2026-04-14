@@ -3,7 +3,7 @@ import java.io.*;
 
 public class SWEA3289 {
 
-    public static class DisjointSet {
+    public static class SWEA_3289 {
         private int[] parent;
         private int[] rank;
 

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class D3_5105_미로의거리 {
+public class SWEA5105 {
 
     final static int[] drs = {0, 0, -1, 1};
     final static int[] dcs = {-1, 1, 0, 0};
