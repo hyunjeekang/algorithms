@@ -80,6 +80,7 @@
 | 10871 | 확인 불가 | [Python](baekjoon/10871.py) | - |
 | 10989 | 확인 불가 | [Python](baekjoon/10989.py) | - |
 | 11053 | 확인 불가 | [Java](baekjoon/BOJ11053.java) | - |
+| 11404 | 확인 불가 | [Java](baekjoon/BOJ11404.java) | - |
 | 11721 | 확인 불가 | [Python](baekjoon/11721.py) | - |
 | 11723 | 확인 불가 | [Python](baekjoon/11723.py) | - |
 | 11724 | 확인 불가 | [Python](baekjoon/11724.py) | - |
@@ -137,6 +138,7 @@
 | 1247 | 최적경로 | [Java](swea/D5_1247_%EC%B5%9C%EC%A0%81%EA%B2%BD%EB%A1%9C.java), [Python](swea/D5_1247_%EC%B5%9C%EC%A0%81%EA%B2%BD%EB%A1%9C.py) | D5 |
 | 24615 | 던전탈출 | [Java](swea/D5_24615_%EB%8D%98%EC%A0%84%ED%83%88%EC%B6%9C.java) | D5 |
 | 7793 | 오나의여신님 | [Java](swea/D5_7793_%EC%98%A4%EB%82%98%EC%9D%98%EC%97%AC%EC%8B%A0%EB%8B%98.java) | D5 |
+| 1263 | - | [Java](swea/D6_1263.java) | D6 |
 | 1267 | 작업순서 | [Java](swea/D6_1267_%EC%9E%91%EC%97%85%EC%88%9C%EC%84%9C.java) | D6 |
 | 25010 | 인기검색어 | [Java](swea/D6_25010_%EC%9D%B8%EA%B8%B0%EA%B2%80%EC%83%89%EC%96%B4.java) | D6 |
 | 0001 | 아파트 | [Java](swea/HW_0001_%EC%95%84%ED%8C%8C%ED%8A%B8.java) | HW |
