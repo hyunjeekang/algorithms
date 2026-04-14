@@ -3,10 +3,6 @@
 <div align="center">
   <table border="0">
     <tr>
-      <td align="center"><b>Solved.ac Profile</b></td>
-      <td align="center"><b>Mazandi Profile</b></td>
-    </tr>
-    <tr>
       <td><a href="https://solved.ac/hyunni3"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hyunni3" height="150"></a></td>
       <td><img src="http://mazandi.herokuapp.com/api?handle=hyunni3&theme=dark" height="150"></td>
     </tr>
@@ -15,9 +11,7 @@
 
 <br>
 
-## 📊 Algorithm Dashboard
-
-Study progress for algorithm concepts.
+## Study Progress
 
 <table align="center" width="100%">
   <thead>
