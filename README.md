@@ -32,6 +32,13 @@
       <td align="center"><img src="https://img.shields.io/badge/Solved-3B82F6?style=flat-square"></td>
       <td align="center"><code>O(V³)</code></td>
     </tr>
+        <tr>
+      <td align="center"><a href="concepts/divide-and-conquer.md"><b>Divide and Conquer</b></a></td>
+      <td align="center"><img src="https://img.shields.io/badge/Diff-⭐⭐⭐⭐-4A5568?style=flat-square"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Imp-⭐⭐⭐⭐⭐-E11D48?style=flat-square"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Solved-3B82F6?style=flat-square"></td>
+      <td align="center"><code>O(N log N)</code><br><code>O(log N)</code></td>
+    </tr>
   </tbody>
 </table>
 
