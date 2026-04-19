@@ -114,9 +114,17 @@ public class KruskalMST {
     }
 
     public static void union(int x, int y) {
-        x = find(x);
-        y = find(y);
-        if (x != y) parent[y] = x;
+        x = find(x); // x의 최상위 부모
+        y = find(y); // y의 최상위 부모
+        
+        if (x != y) {
+            // 두 부모 번호를 비교해서 더 작은 쪽이 부모가 되도록 설정
+            if (x < y) {
+                parent[y] = x;
+            } else {
+                parent[x] = y;
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -124,7 +132,7 @@ public class KruskalMST {
         List<Edge> edges = new ArrayList<>();
         // 간선 정보 추가...
 
-        // 1. 간선 가중치 기준 오름차순 정렬 (가장 중요한 부분)
+        // 1. 간선 가중치 기준 오름차순 정렬
         Collections.sort(edges); 
 
         parent = new int[V + 1];
